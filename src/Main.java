@@ -1,9 +1,37 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Juhised.mainJuhised();
         Tähed tähed = new Tähed();
-        System.out.println(Arrays.toString(tähed.suvaline()));
+
+        boolean käib = true;
+        while (käib) {
+            Juhised.mainJuhised();
+
+            Scanner input = new Scanner(System.in);
+            System.out.println("Sisesta täht: ");
+            String sisestus = input.nextLine();
+            System.out.println("täht:" + sisestus);
+
+            switch (sisestus) {
+                case "L":
+                    käib = false;
+                    break;
+                case "N":
+                    System.out.println(tähed);
+                    break;
+                case "T":
+                    tähed.teisendus(0);
+                    break;
+                case "K":
+                    tähed.teisendus(1);
+                    break;
+            }
+        }
+        System.out.println();
+        System.out.println("****/*/*-/-** *-/*/--*/*-!");
+        System.out.println("(HEAD AEGA!)");
     }
 }
