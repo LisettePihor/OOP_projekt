@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -18,9 +19,11 @@ public class Tähed {
     @Override
     public String toString() {
         return "Tähestik: " + Arrays.deepToString(tähed);
+        //natuke ilusamaks vaja teha
     }
 
     void teisendus(int i) {
+        //vihjed ja tähtede eemaldamine
         int j = 0;
         if (i == 0) j = 1;
 
@@ -39,6 +42,7 @@ public class Tähed {
                     break;
                 } else {
                     System.out.println("Proovi uuesti");
+                    System.out.println(paar[i]);
                 }
             }
 

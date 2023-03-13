@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107e19d0-7320-4e7d-8424-20d913e54b89" name="Changes" comment="tähestik ja juhised">
+    <list default="true" id="107e19d0-7320-4e7d-8424-20d913e54b89" name="Changes" comment="teisenduse funktsioon ja mõned täiendused">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Juhised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Juhised.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tähed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tähed.java" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678435270519</updated>
       <workItem from="1678435271640" duration="6689000" />
-      <workItem from="1678691013350" duration="4404000" />
+      <workItem from="1678691013350" duration="6196000" />
     </task>
     <task id="LOCAL-00001" summary="algus">
       <created>1678437186395</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678691137673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="teisenduse funktsioon ja mõned täiendused">
+      <created>1678696501847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678696501847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +130,7 @@
     <MESSAGE value="algus" />
     <MESSAGE value="algsed juhised" />
     <MESSAGE value="tähestik ja juhised" />
-    <option name="LAST_COMMIT_MESSAGE" value="tähestik ja juhised" />
+    <MESSAGE value="teisenduse funktsioon ja mõned täiendused" />
+    <option name="LAST_COMMIT_MESSAGE" value="teisenduse funktsioon ja mõned täiendused" />
   </component>
 </project>

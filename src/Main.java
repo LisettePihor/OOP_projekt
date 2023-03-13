@@ -16,18 +16,11 @@ public class Main {
             System.out.println("täht:" + sisestus);
 
             switch (sisestus) {
-                case "L":
-                    käib = false;
-                    break;
-                case "N":
-                    System.out.println(tähed);
-                    break;
-                case "T":
-                    tähed.teisendus(0);
-                    break;
-                case "K":
-                    tähed.teisendus(1);
-                    break;
+                case "L" -> käib = false;
+                case "N" -> System.out.println(tähed);
+                case "T" -> tähed.teisendus(0);
+                case "K" -> tähed.teisendus(1);
+                //sisestuse kontroll
             }
         }
         System.out.println();
