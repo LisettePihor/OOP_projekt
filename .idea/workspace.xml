@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107e19d0-7320-4e7d-8424-20d913e54b89" name="Changes" comment="õpitud tähti ei kuvata mitu korda">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2023,_11_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2023__11_47__Changes_.xml" beforeDir="false" />
+    <list default="true" id="107e19d0-7320-4e7d-8424-20d913e54b89" name="Changes" comment="algne sõna teisendus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Juhised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Juhised.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -83,7 +81,9 @@
       <workItem from="1678691013350" duration="4404000" />
       <workItem from="1678987386730" duration="530000" />
       <workItem from="1679562305455" duration="16000" />
-      <workItem from="1679900513676" duration="3725000" />
+      <workItem from="1679900513676" duration="4425000" />
+      <workItem from="1680086939481" duration="1640000" />
+      <workItem from="1680094284932" duration="15629000" />
     </task>
     <task id="LOCAL-00001" summary="algus">
       <created>1678437186395</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678744146866</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="algne sõna teisendus">
+      <created>1680076194170</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680076194170</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="algsed juhised" />
     <MESSAGE value="tähestik ja juhised" />
     <MESSAGE value="õpitud tähti ei kuvata mitu korda" />
-    <option name="LAST_COMMIT_MESSAGE" value="õpitud tähti ei kuvata mitu korda" />
+    <MESSAGE value="algne sõna teisendus" />
+    <option name="LAST_COMMIT_MESSAGE" value="algne sõna teisendus" />
   </component>
 </project>

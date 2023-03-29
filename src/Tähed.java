@@ -23,6 +23,15 @@ public class Tähed {
         return tähed[suvalineIndeks];
     }
 
+
+    // väljastab nii palju sümboleid kui mitu korda ollakse valesti vastanud
+    void vihje(String sõna, int n){
+        String [] sõnaTükid = sõna.split("");
+            for (int i = 0; i < n; i++) {
+                System.out.print(sõnaTükid[i]);
+            }
+    }
+
     @Override
     public String toString() {
         return "Tähestik: " + Arrays.deepToString(tähed);
@@ -30,7 +39,6 @@ public class Tähed {
     }
 
     void teisendus(int i) {
-        //vihjed ja tähtede eemaldamine (valmis)
         int j = 0;
         if (i == 0) j = 1;
         ArrayList<String> õpitudTähed = new ArrayList<>();
@@ -38,33 +46,42 @@ public class Tähed {
         while (true) {
             String[] paar = suvaline();     //õigete vastuste korral tähed ei kordu
             if (õpitudTähed.contains(paar[0])) continue;
-            System.out.println(paar[i]);
+            System.out.println("Teisenda: " + paar[i]);
+            int valeVastus = 1;
 
             while (true) {
                 Scanner input = new Scanner(System.in);
-                System.out.println("Sisesta vastus: ");
+                System.out.print("Sisesta vastus: ");
                 String sisestus = input.nextLine();
-                System.out.println("vastus:" + sisestus);
 
                 if (sisestus.equals(paar[j])) {
-                    System.out.println("Õige vastus");
+                    System.out.println("Õige vastus \n");
                     õpitudTähed.add(paar[0]);
                     break;
                 } else {
-                    System.out.println("Proovi uuesti");
-                    System.out.println(paar[i]);
+                    System.out.println("Proovi uuesti \n");
+                    System.out.println("Teisenda: " + paar[i]);
+                    if(valeVastus < paar[j].length()){
+                        System.out.print("vihje: ");        //kui vastad valesti saad sümbolhaaval vihjeid
+                        vihje(paar[j],valeVastus++);
+                        System.out.println();
+                    } else{
+                        System.out.println("Vastus oli: " + paar[j]);
+                        break;
+                    }
+
                 }
             }
             if (õpitudTähed.size() == tähed.length) {     //kui kõik tähed on korra õigesti kirjutatud, siis programm lõppeb ise
                 System.out.println("Kõik on õpitud!");
                 break;
             }
-            Scanner input = new Scanner(System.in);
-            System.out.println("Soovid jätkata? (jah/ei) ");
-            String jätkamine = input.nextLine();
-            System.out.println("vastus:" + jätkamine);
 
-            if (jätkamine.equals("ei")) {
+            Scanner input = new Scanner(System.in);
+            System.out.print("Soovid jätkata? (jah/ei) ");
+            String jätkamine = input.nextLine();
+
+            if (jätkamine.equalsIgnoreCase("ei")) {
                 System.out.println("Tagasi algusesse :)");
                 break;
             }
