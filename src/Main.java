@@ -1,10 +1,11 @@
-import java.sql.SQLOutput;
-import java.util.Arrays;
 import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
         Tähed tähed = new Tähed();
+        Sõnad sõna = new Sõnad("-*-/*-/***/***");
+        Sõnad sõna2 = new Sõnad("KASS");
 
         boolean käib = true;
         while (käib) {
@@ -20,6 +21,8 @@ public class Main {
                 case "N" -> System.out.println(tähed);
                 case "T" -> tähed.teisendus(0);
                 case "K" -> tähed.teisendus(1);
+                case "S" -> sõna2.sõnaTeisendus("","/",0,1);
+                case "M" -> sõna.sõnaTeisendus("/","",1,0);
                 //sisestuse kontroll
             }
         }

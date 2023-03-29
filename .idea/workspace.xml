@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107e19d0-7320-4e7d-8424-20d913e54b89" name="Changes" comment="tähestik ja juhised">
+    <list default="true" id="107e19d0-7320-4e7d-8424-20d913e54b89" name="Changes" comment="õpitud tähti ei kuvata mitu korda">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2023,_11_47_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_03_2023__11_47__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Juhised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Juhised.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sõnad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sõnad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tähed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tähed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +52,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -71,6 +81,9 @@
       <updated>1678435270519</updated>
       <workItem from="1678435271640" duration="6689000" />
       <workItem from="1678691013350" duration="4404000" />
+      <workItem from="1678987386730" duration="530000" />
+      <workItem from="1679562305455" duration="16000" />
+      <workItem from="1679900513676" duration="3725000" />
     </task>
     <task id="LOCAL-00001" summary="algus">
       <created>1678437186395</created>
@@ -100,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678691137673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="õpitud tähti ei kuvata mitu korda">
+      <created>1678744146866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678744146866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +142,7 @@
     <MESSAGE value="algus" />
     <MESSAGE value="algsed juhised" />
     <MESSAGE value="tähestik ja juhised" />
-    <option name="LAST_COMMIT_MESSAGE" value="tähestik ja juhised" />
+    <MESSAGE value="õpitud tähti ei kuvata mitu korda" />
+    <option name="LAST_COMMIT_MESSAGE" value="õpitud tähti ei kuvata mitu korda" />
   </component>
 </project>

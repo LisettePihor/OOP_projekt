@@ -14,6 +14,10 @@ public class Tähed {
     // private String[][] tähed = {{"A", "*-"}, {"B", "-***"}, {"C", "-*-*"}, {"D", "-**"}}; katsetamiseks hea
 
 
+    public String[][] getTähed() {
+        return tähed;
+    }
+
     String[] suvaline() {
         int suvalineIndeks = (int) (random() * tähed.length);
         return tähed[suvalineIndeks];
@@ -26,7 +30,7 @@ public class Tähed {
     }
 
     void teisendus(int i) {
-        //vihjed ja tähtede eemaldamine
+        //vihjed ja tähtede eemaldamine (valmis)
         int j = 0;
         if (i == 0) j = 1;
         ArrayList<String> õpitudTähed = new ArrayList<>();

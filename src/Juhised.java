@@ -5,6 +5,8 @@ public class Juhised {
         System.out.println("N - näita tähestikku");
         System.out.println("T - tähed morse koodiks");
         System.out.println("K - morse kood tähtedeks");
+        System.out.println("S - sõna morse koodi");
+        System.out.println("M - morse kood sõnaks");
         System.out.println();
         System.out.println("Lõpetamiseks sisesta L");
         System.out.println();
